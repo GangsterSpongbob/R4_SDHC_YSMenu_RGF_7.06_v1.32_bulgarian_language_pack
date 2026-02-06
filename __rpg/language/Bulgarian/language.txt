@@ -1,0 +1,306 @@
+
+
+[font]
+main = liberation.pcf
+language = 1
+
+[start menu]
+Copy = Копиране
+Cut = Изрязване
+Paste = Поставяне
+Delete = Изтриване
+Setting = Настройки
+Info = Информация
+Help = Помощ
+Tools = Инструменти
+START = СТАРТ
+
+[message box]
+yes = Да
+no = Нв
+ok = OK
+cancel = Отказ
+
+[progress window]
+processing save = Обработване, не изключвай!
+processing copy = Копиране, не изключвай! %c за отмяна
+first use sd = Проверка на SD картата при първа употреба
+gba load = Зареждане на GBA игра...
+gba save load = Зареждане на запазена GBA игра...
+gba save store = Обработване на запазена GBA игра, не изключвай!
+erase nor = Изтриване на NOR flash, не изключвай!
+
+[copy file error]
+title = Грешка
+text = Файлът не съществува
+
+[copy file exists]
+title = Предупреждение
+text = Съществува файл с това име, искате ли да го замените?
+
+[copy dest is directory]
+title = Грешка
+text = Съществува директория с това име, файлът не може да бъде копиран.
+
+[move dest is directory]
+title = Грешка
+text = Съществува директория с това име, файлът не може да бъде преместен.
+
+[no copy dir]
+title = Грешка
+text = В момента няма подръжка за копиране/местене на директории.
+
+[stop copying file]
+title = Прекратяване на копирането
+text = Искате ли да прекратите копирането?
+
+[confirm delete file]
+title = Потвърждение
+text = Файлът не може да бъде възстановен след изтриване, искате ли да продължите "%s"?
+
+[do not delete directory]
+title = Грешка
+text = Изтриването прекратено.
+
+[restore save fail]
+title = Грешка
+text = Информацията от записа не може да бъде възстановена.
+
+[language changed]
+title = Въпрос
+text = Промяна на системния език, рестартиране сега за прилагане на промяната? Изберете "Не", за рестартиране по-късно.
+
+[ui style changed]
+title = Въпрос
+text = Промяна на потребителския интерфейс, рестартиране сега за прилагане на промяната? Изберете "Не", за връщане към предишния стил.
+
+[setting window]
+ok = OK
+savetype = Настройки
+cancel = Отказ
+confirm = Потвърждаване
+confirm text = Запазване на текущите настройки?
+close = Затваряне
+system = Система
+interface = Интерфейс
+filesystem = Файлова система
+gba = GBA
+patches = Пачове
+
+[save type]
+title = Настройки
+text = Изберете вид запис
+Unknown = неизвестен/автоматичен
+No Save = без запазване
+4K = 4K
+64K = 64K
+512K = 512K
+1M = 1M
+2M = 2M
+4M = 4M
+8M = 8M
+16M = 16M
+32M = 32M
+64M = 64M
+default = по подразбиране
+save slot = Изберете позиция за запис
+tab1 = Съвместимост
+tab2 = Допълнителни функции
+
+[system setting]
+title = Системни настройки
+safe mode = Безопасен режим
+
+[rom info]
+title = Информация за файла
+file date = Последна промяна: %d/%d/%d %02d:%02d:%02d(GMT)
+file size = Размер: %s
+save type = Тип запис: %s
+game code = Код: %s
+copy slot = Копиране
+
+[disk info]
+total = Капацитет: %s
+used = Използвано пространство: %s
+free = Свободно пространство: %s
+
+[no free space]
+title = Грешка
+text = Недостатъчно пространство на диска.
+
+[unsupported sd]
+title = Неподдържана SD карта
+text = Този модел SD карта (%s) е неподходящ за официални програми за DS, моля копирайте програмата от SD картата върху Вътрешната памет и опитайте отново.
+
+[sd card error]
+title = Грешка с SD картата
+text = SD картата не може да бъде достъпена. Проверете дали е поставена правилно.
+
+[no sd for save]
+title = Грешка с SD картата
+text = SD картата не може да бъде достъпена, информацията от последната програма ще бъде записана във файл "%s".
+
+[no gba card]
+title = Известие
+text = Няма поставено устройство в SLOT-2 (GBA)
+
+[filelist type]
+text = Задаване на файлов формат
+item0 = NDS
+item1 = NDS + SAV
+item2 = ALL
+
+[rom trim]
+text = Изрязване на ROM при копиране
+item0 = Не
+item1 = Да
+
+[language]
+text = Език
+ja = 日本語
+en = агнлийски
+fr = френски
+de = немски
+it = италиански
+es = испански
+bg = български
+
+[ui style]
+text = Потребителски интерфейс
+
+[help window]
+title = Помощ
+item0 = %c  Избор на програми
+item1 = %c  Старт/OK/ДА
+item2 = %c  Назад/Отказ/НЕ
+item3 = %c  Информация/Избор на формат
+item4 = %c  Смяна на SD/FLASH
+item5 = %c  Обратно към директория
+item6 = %c  Регулиране на яркостта
+item7 = %s  Начално Меню
+item8 = %s  Стил на менюто
+
+[exp window]
+button = 3в1
+title = 3в1 настройки на разширенията
+ram = RAM
+sram = sRAM
+off = изключено
+low = ниско
+mid = средно
+high = високо
+strength = Сила на вибрацията
+flash to nor = към NOR
+copy to psram = към RAM
+
+[abort save]
+title = Прекратяване обработката на запис
+text = Искате ли да прекратите обработката на записа?
+
+[gba warn]
+title = Предупреждение
+text = GBA ROM с размер над 32М не се поддържат!
+
+[patches]
+download play = Download Play
+cheating system = In-Game Cheats
+reset in game = Връщане към менюто
+dma = DMA режим
+protection = Bypass Protection
+linkage = Връзка с GBA
+sd save = Запазване върху SD
+homebrew reset = Рестартиране в Homebrew
+reset hotkey = Бутон за рестартиране
+
+[switches]
+Enable = Включено
+Disable = Изключено
+Global = Всички(%s)
+
+[ram allocation]
+title = Грешка
+memory allocation error = Грешка при заделянето на памет
+
+[scrolling]
+fast = Бързо
+medium = Средно
+slow = Бавно
+
+[file settings]
+title = Настройки на файлова система
+show hidden files = Показване на скрити файлове
+save extension = Формат за записи
+
+[interface settings]
+title = Настройки на интерфейс
+scrolling speed = Скорост на превъртане
+filelist style = Стил на списъка с файлове
+oldschool = Класически
+modern = Модерен
+internal = Вътрешен
+small = Малки икони
+animation = Анимация
+12 hour = 12-часов часовник
+
+[gba settings]
+title = Настройки на GBA
+sleephack = Универсален сън
+autosave = Запазване на прогреса при стартиране
+mode = режим Slot-2 (GBA)
+modegba = gba
+modends = nds
+modeask = ask
+modetext = Стартуране на slot-2 (GBA) в NDS режим?
+
+[sd save]
+title = Предупреждение
+text = Тази игра не може да бъде стартирана от вътрешната памет, моля копирайте играта от вътрешната памет върху SD картата и опитайте отново.
+
+[icon]
+icon = Показване на икона
+transparent = прозрачна
+as is = непроменено
+firmware = фърмуер
+
+[cheats]
+title = Cheats
+info = Още…
+deselect = Премахване на всичко от избора
+
+[saveslot]
+title = Копиране на позицията за записи
+confirm = Сигурни ли сте, че искате да копирате позицията за записи?
+target slot = Дестинация
+
+[mainlist]
+flash memory = Flash Памет
+microsd card = microSD Карта
+slot2 card = Slot2 (GBA) Карта
+favorites = Любими
+
+[hotkeys]
+l-r-a-b-↓ = l-r-a-b-↓
+l-r-b-y-↓ = l-r-b-y-↓
+l-r-a-b-x-y = l-r-a-b-x-y
+b-y-touch = b-y-touch
+start-r-touch = start-r-touch
+
+[updater]
+update = Обновяване
+update ? = Искате ли да обновите?
+updater = Обновяване на модул
+menu = Основен модул
+cheats = Cheats DB
+connecting = Свързване...
+failed = неуспешно обновяване
+updated = обновено успешно
+fresh = вече обновено
+stop = Искате ли да прекратите трансфера?
+download = Сваляне на %d байта
+unpack = Разопаковане
+
+[crc32]
+crc32 = CRC32
+calculation = Изчисляване на CRC32
+
+[end]
